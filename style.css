@@ -3,3 +3,46 @@
     border-radius: 5px;
    
 }
+.carousel-caption h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+@media only screen and (max-width: 300px) {
+    .carousel-caption{
+        margin-bottom: -115px;
+    
+    }
+    .carousel-caption h1{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .carousel-caption p{
+        font-size: 8px;
+    }
+    
+}
+
+@media only screen and (min-width: 301px) and (max-width: 688px) {
+    .carousel-caption{
+        margin-bottom: -50px;
+    
+    }
+    .carousel-caption h1{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .carousel-caption p{
+        font-size: 8px;
+    }
+    
+}
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+
+      .carousel-caption h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+}
